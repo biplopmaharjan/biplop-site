@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = "dist"  # or "build" if using Create React App
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript"
+
+[[headers]]
+  for = "/*.jsx"
+  [headers.values]
+    Content-Type = "text/javascript"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
