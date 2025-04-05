@@ -49,11 +49,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a frontend-focused software developer skilled in JavaScript,
-        TypeScript and React. I specialize in building scalable, user-friendly
-        interfaces with clean and efficient code. While my strength lies in
-        frontend development, I'm also expanding my skills in backend
-        technologies to become a well-rounded full-stack developer{" "}
+       I'm a Multimedia Generalist with a passion for building creative and impactful digital experiences.
+       I dive into a wide range of media, combining creativity and technical skills to bring ideas to life.
+       My journey spans across video editing, web design, graphic design, 3D modeling, and sketching 
+       giving me a versatile edge in multimedia production.{" "}
       </motion.p>
 
       <div className="mt-20 flex flex-row flex-wrap gap-10">

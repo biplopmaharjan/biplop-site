@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+//import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
-    <section className={`bg-hero relative w-full h-screen mx-auto`}>
+    <section className={`bg-hero relative w-full h-screen mx-auto bg-black`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -17,12 +17,12 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Biplop</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Multimedia Generalist <br className="sm:block hidden" /> who is into
-            building the multimedia stuffs
+            I'm a Multimedia Generalist <br className="sm:block hidden" />about crafting compelling 
+            multimedia <br className="sm:block hidden" />experiences.
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className="absolute xs:bottom-10 bottom-5 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">

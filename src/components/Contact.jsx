@@ -21,16 +21,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_b3fgzil",
-        "template_yrmsbec",
+        "service_qs2w0pn",
+        "template_lxnkkdm",
         {
           from_name: form.name,
-          to_name: "Binayak",
+          to_name: "Biplop",
           from_email: form.email,
-          to_email: "binayakchhetri23.ac@gmail.com",
+          to_email: "billumaharjan69@gmail.com",
           message: form.message,
         },
-        "7J03qQRFFZc_ew7JY"
+        "40FiLc8NdB3sMrmat"
       )
       .then(
         (res) => {
